@@ -16,6 +16,8 @@
 		7E4132D3299BE57300ABA692 /* Personality_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4132D2299BE57300ABA692 /* Personality_QuizTests.swift */; };
 		7E4132DD299BE57300ABA692 /* Personality_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4132DC299BE57300ABA692 /* Personality_QuizUITests.swift */; };
 		7E4132DF299BE57300ABA692 /* Personality_QuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4132DE299BE57300ABA692 /* Personality_QuizUITestsLaunchTests.swift */; };
+		7E4132EC299BF0CA00ABA692 /* questionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4132EB299BF0CA00ABA692 /* questionView.swift */; };
+		7E9CF892299D38E000F6EB32 /* resultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9CF891299D38E000F6EB32 /* resultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7E4132D8299BE57300ABA692 /* Personality QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personality QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4132DC299BE57300ABA692 /* Personality_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_QuizUITests.swift; sourceTree = "<group>"; };
 		7E4132DE299BE57300ABA692 /* Personality_QuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_QuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E4132EB299BF0CA00ABA692 /* questionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionView.swift; sourceTree = "<group>"; };
+		7E9CF891299D38E000F6EB32 /* resultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		7E4132AF299BE57200ABA692 = {
 			isa = PBXGroup;
 			children = (
+				7E9CF891299D38E000F6EB32 /* resultsView.swift */,
+				7E4132EB299BF0CA00ABA692 /* questionView.swift */,
 				7E4132BA299BE57200ABA692 /* Personality Quiz */,
 				7E4132D1299BE57300ABA692 /* Personality QuizTests */,
 				7E4132DB299BE57300ABA692 /* Personality QuizUITests */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4132EC299BF0CA00ABA692 /* questionView.swift in Sources */,
 				7E4132C0299BE57200ABA692 /* ViewController.swift in Sources */,
+				7E9CF892299D38E000F6EB32 /* resultsView.swift in Sources */,
 				7E4132BC299BE57200ABA692 /* AppDelegate.swift in Sources */,
 				7E4132BE299BE57200ABA692 /* SceneDelegate.swift in Sources */,
 			);
